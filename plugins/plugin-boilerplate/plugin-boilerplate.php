@@ -37,6 +37,8 @@ if ( ! defined( 'WPINC' ) ) {
  */
 define( 'PLUGIN_BOILERPLATE_VERSION', '1.0.0' );
 
+require_once(plugin_dir_path(__FILE__) . '/src/autoload.php');
+
 /**
  * The code that runs during plugin activation.
  * This action is documented in includes/class-plugin-boilerplate-activator.php
@@ -77,6 +79,9 @@ function run_plugin_boilerplate() {
 
 	$plugin = new Plugin_Boilerplate();
 	$plugin->run();
+
+	$test = new Wp\PluginBoilerplate\Test;
+	$test->init();
 
 }
 run_plugin_boilerplate();
