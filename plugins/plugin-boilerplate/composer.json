@@ -1,0 +1,16 @@
+{
+    "name": "wp/plugin-boilerplate",
+    "description": "This is a boilerplate for a WordPress plugin",
+    "autoload": {
+        "psr-4": {
+            "Wp\\PluginBoilerplate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "iamjamesgordon",
+            "email": "iamjamesgordon@gmail.com"
+        }
+    ],
+    "require": {}
+}
