@@ -80,8 +80,7 @@ function run_plugin_boilerplate() {
 	$plugin = new Plugin_Boilerplate();
 	$plugin->run();
 
-	$test = new Wp\PluginBoilerplate\Test;
-	$test->init();
-
 }
 run_plugin_boilerplate();
+
+require plugin_dir_path( __FILE__ ) . 'src/load.php';

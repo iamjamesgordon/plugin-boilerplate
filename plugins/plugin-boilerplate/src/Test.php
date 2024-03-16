@@ -1,8 +1,9 @@
 <?php
 
 namespace Wp\PluginBoilerplate;
+use Wp\PluginBoilerplate\Helpers\Initialiser;
 
-class Test
+class Test implements Initialiser
 {
 
     public function init()
