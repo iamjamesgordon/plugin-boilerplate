@@ -1,0 +1,4 @@
+# Removing default themes and plugin files
+plugins/akismet
+plugins/index.php
+plugins/hello.php
