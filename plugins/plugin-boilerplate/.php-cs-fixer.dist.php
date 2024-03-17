@@ -5,6 +5,7 @@ $finder = \PhpCsFixer\Finder::create()
     ->exclude('dist')
     ->exclude('templates')
     ->exclude('vendor')
+    ->exclude('scripts')
     ->in(__DIR__);
 
 return (new PhpCsFixer\Config())
