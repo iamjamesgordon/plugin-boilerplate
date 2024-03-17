@@ -10,11 +10,11 @@
  */
 
 // If this file is called directly, abort.
-if ( ! defined( 'WPINC' ) ) {
-	die;
+if (! defined('WPINC')) {
+    die;
 }
 
-define( 'PLUGIN_BOILERPLATE_VERSION', '1.0.0' );
+define('PLUGIN_BOILERPLATE_VERSION', '1.0.0');
 
 require_once(plugin_dir_path(__FILE__) . '/src/autoload.php');
 
