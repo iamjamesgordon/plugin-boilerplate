@@ -1,3 +1,4 @@
 # Removing default themes and plugin files
-vendor/
+vendor/*
+!vendor/autoload.php
 node_modules/
