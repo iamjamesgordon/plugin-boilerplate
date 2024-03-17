@@ -16,6 +16,6 @@ if (! defined('WPINC')) {
 
 define('PLUGIN_BOILERPLATE_VERSION', '1.0.0');
 
-require_once(plugin_dir_path(__FILE__) . '/src/autoload.php');
+require_once(plugin_dir_path(__FILE__) . 'vendor/autoload.php');
 
 require_once(plugin_dir_path(__FILE__) . 'src/load.php');
